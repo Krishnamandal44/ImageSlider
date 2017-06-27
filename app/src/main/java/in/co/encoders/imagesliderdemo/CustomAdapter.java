@@ -44,6 +44,7 @@ public class CustomAdapter extends PagerAdapter {
         return v;
     }
 
+
     @Override
     public void destroyItem(View container, int position, Object object) {
         container.refreshDrawableState();
